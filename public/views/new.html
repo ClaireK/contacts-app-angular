@@ -1,0 +1,22 @@
+<button ng-click="back()">  &#8678; </button>
+
+<h2> New Contact </h2>
+
+<div class="input__fields">
+	<p>
+		<label for="firstName"> First Name: </label>
+		<input ng-model="contact.firstName" type="text" name="First Name" id="firstName">
+	</p>
+	<p>
+		<label for="lastName"> Last Name: </label>
+		<input ng-model="contact.lastName" type="text" name="Last Name" id="lastName">
+	</p>
+	<p>
+		<label for="email"> Email: </label>
+		<input ng-model="contact.email" type="text" name="Email" id="email">
+	</p>
+</div>
+
+<p>
+	<button ng-click="add()"> Add contact </button>
+</p>
